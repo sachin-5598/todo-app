@@ -5,10 +5,10 @@
 
 ## Database setup
   ### Docker installation for Database
-    * [x] docker-compose.yml
-    * [x] setup
-      * services
-      * volumes
-      * ports
-      * environment variables
+  * [x] docker-compose.yml
+  * [x] setup
+    * services
+    * volumes
+    * ports
+    * environment variables
   
