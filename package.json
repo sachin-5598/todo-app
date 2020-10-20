@@ -1,0 +1,33 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "## Database Design ![alt](https://i.ibb.co/2Sj1qrj/TODO-app.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1",
+    "dev": "",
+    "migrate": "knex migrate:latest",
+    "rollback": "knex migrate:rollback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachin-5598/todo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachin-5598/todo-app/issues"
+  },
+  "homepage": "https://github.com/sachin-5598/todo-app#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.6",
+    "pg": "^8.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
