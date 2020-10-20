@@ -18,12 +18,21 @@
     * pg
     * dotenv
   * [x] knexfile.js
+    ```sh
+    npx knex init
+    ```
 
   ### eslint setup
   * [x] Install
     * eslint
   * [x] .eslintrc.js
+    ```sh
+    npx eslint --init
+    ```
 
   ### Table migrations
   * [x] Create migrations
+    ```sh
+    npx knex migrate:make initial
+    ```
   * [x] Run migrations
